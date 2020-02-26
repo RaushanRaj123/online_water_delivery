@@ -1,0 +1,45 @@
+*{
+	margin:0px;
+	padding:0px;
+	border: 0px;
+}
+
+ 
+#orderform{
+	
+	margin: auto;
+     width:50%;
+     padding:10px;
+     height:auto;
+     border:1px solid black;
+     font-size:25px;
+     box-shadow: 10px 5px 15px #595959;
+}
+#orderform input{
+	border-radius:5px;
+            width:90%;
+            margin: 10px;
+            font-size: 20px;
+             height:40px;
+             border-width: 2px;
+           border-style: outset;
+}
+select{
+	width: 90%;
+	height: 40px;
+	border-radius:5px;
+	margin: 10px;
+	font-size:20px;
+	border-width: 2px;
+     border-style: outset;
+}
+
+#orderform input:hover{
+	border-color: green;
+	border-width: 4px;
+}
+
+select:hover{
+	border-width: 4px;
+	border-color: green;
+}
